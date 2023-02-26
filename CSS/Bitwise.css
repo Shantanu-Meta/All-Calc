@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  font-family: "ubuntu", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #121330;
+  display: grid;
+  place-items: center;
+  overflow-x: hidden;
+}
+
+#container{
+    background: linear-gradient(279deg, rgba(0, 212, 255, 1) 0%, rgba(5, 5, 100, 1) 152%, rgba(0, 212, 255, 1) 100%);
+    box-shadow: 0px 0px 13px 4px rgb(21 76 237);
+    padding: 25px;
+    font-size: 25px;
+    color: white;
+}
+
+p input{
+    border: none;
+    box-shadow: 2px 2px 5px;
+    height: 20px;
+    margin-top: -2px;
+}
+#p input{
+    margin-left: 5px;
+    background-color: #fff;
+}
+#home{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 50px;
+}
+[type="button"] {
+  height: 35px;
+  margin: 20px;
+  width: 100px;
+  font-size: 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin: auto;
+}
+.button:hover{
+  color: #e57a15;
+}
+
+#resultContainer {
+  font-size: 30px;
+}
+
+.calculator-name-header {
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 0px 15px 0px 15px;
+  font-size: 25px;
+  box-shadow: 0px 0px 13px 4px rgb(21 76 237);
+  background: linear-gradient(279deg, rgba(0, 212, 255, 1) 0%, rgba(5, 5, 100, 1) 152%, rgba(0, 212, 255, 1) 100%);
+  color:#fff;
+}
+button{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.operations{
+  display: flex;
+  align-items: center;
+  justify-content:left;
+}
+.operations button{
+  margin: 0px 15px;
+  border-radius: 5px;
+}
+
+.box{
+    display:grid;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
