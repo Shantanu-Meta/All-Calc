@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="Image/Favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/Bitwise.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="theme.css" />
+    <title>Bitwise Calculator</title>
+  </head>
+  <body>
+
+    <div class="calculator-name-header">
+
+      <span>Bitwise calculator</span>
+
+    </div>
+    <div id="container">
+      <div id="card-container">
+        <p id="p">
+          Enter 1st number(In decimal) <input id="first" type="number" placeholder="Enter No." />
+        </p>
+
+        <p id="p">
+          Enter 2nd number(In decimal) <input id="second" type="number" placeholder="Enter No." />
+        </p>
+        <div class="operations">
+          <span>Choose Operation: </span>
+          <button id="button" onclick="and()">And</button>
+          <button id="button" onclick="or()">OR</button>
+          <button id="button" onclick="xor()">XOR</button>
+        </div>
+
+        <p id="p">Result : <input id="result" disabled="" /></p>
+        <button
+          id="bitSet"
+          style="margin-top: 5px; padding-top: 3px; padding-bottom: 3px;"
+          onclick="resetBit()"
+        >
+          Reset
+        </button>
+      </div>
+    </div>
+    <a href="/home.html"><i id="home" class="fa fa-home" aria-hidden="true" style="font-size: 35px; text-decoration: none; color: aliceblue; text-align: end; "></i></a>
+    <script src="./Javascript/Bitwise.js"></script>
+
+  </body>
+</html>
