@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/Home.css">
+    <link rel="stylesheet" href="./CSS/logo.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>All~Calc</title>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light text-white bg-need" style="height: 70px;">
+        <a class=" navbar-brand" href="#" style="color: darkgray;"><h1>All~Calc</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active col-2 text-right">
+              <a class="nav-link"> <h2> About</h2> </a>
+            </li>
+          </ul>
+          <i class="ri-moon-fill text-dark"></i>
+
+        </div>
+      </nav>
+
+    <!-- front-page -->
+    <div class="m-5">
+        <div class="bodyhead padding" style="color: #121330;">
+            All~Calc
+        </div>
+        <div class="info">
+            This is multi function calculator web page calculate anything as per requirement.
+        </div>
+    </div>
+
+    <div class="row text-light">
+
+        <div class="card space col-md-4" style="height: 16rem;">
+            <div class="card-body">
+              <h3 class="card-title text-center">Temperature</h3>
+              <h4 class="card-text text-center">Here you can convert the Temperature celsius to fahrenheit or vice versa.</h4>
+              <div class="text-center">
+              <a href="temparature_converter.html" class="btn btn-primary">TRY NOW</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="card space col-md-4" style="height: 16rem;">
+            <div class="card-body">
+              <h3 class="card-title text-center">Factorial</h3>
+              <h4 class="card-text text-center">Here you can find the factorial to a number.</h4>
+              <div class="text-center">
+              <a href="factorial.html" class="btn btn-primary">TRY NOW </a>
+              </div>
+            </div>
+        </div>
+
+        <div class="card space col-md-4" style="height: 16rem;">
+            <div class="card-body">
+              <h3 class="card-title text-center">Power</h3>
+              <h4 class="card-text text-center">Here you can find value of n to the power m.</h4>
+              <div class="text-center">
+              <a href="power.html" class="btn btn-primary">TRY NOW </a>
+              </div>
+            </div>
+        </div>
+
+        <div class="card space col-md-4" style="height: 16rem;">
+            <div class="card-body">
+              <h3 class="card-title text-center">Simple Interst</h3>
+              <h4 class="card-text text-center">Here you can calculate Simple Interst with repect to Principal, Time and Rate of Interst.</h4>
+              <div class="text-center">
+              <a href="interest.html" class="btn btn-primary">TRY NOW </a>
+              </div>
+            </div>
+        </div>
+
+        <div class="card space col-md-4" style="height: 16rem;">
+            <div class="card-body">
+              <h3 class="card-title text-center">Currency Converter</h3>
+              <h4 class="card-text text-center">Here you can make conversion between currencies.</h4>
+              <div class="text-center">
+              <a href="currency-covert.html" class="btn btn-primary">TRY NOW </a>
+              </div>
+            </div>
+        </div>
+
+        <div class="card space col-md-4" style="height: 16rem;">
+            <div class="card-body">
+              <h3 class="card-title text-center">Bitwise calculator</h3>
+              <h4 class="card-text text-center">Here you can calculate Bitwise operations between 2 numbers.</h4>
+              <div class="text-center">
+              <a href="Bitwise.html" class="btn btn-primary">TRY NOW </a>
+              </div>
+            </div>
+        </div>
+
+        <div class="card space col-md-4" style="height: 16rem;">
+            <div class="card-body">
+              <h3 class="card-title text-center">Trigonometric</h3>
+              <h4 class="card-text text-center">Here you can calculate trigonometric function.</h4>
+              <div class="text-center">
+              <a href="trigonmetry.html" class="btn btn-primary">TRY NOW </a>
+              </div>
+            </div>
+        </div>
+
+    </div>
+
+<!-- !-- footer -->
+<div class="bg-info footer text-center card-footer bg-need ">
+    <div> All rights reserved by All~calc
+        <spam id="copy" class="text-center"></spam> </div>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script>
+    let y=new Date().getFullYear();
+
+    document.getElementById("copy").innerHTML = `<i class="ri-copyright-line"></i>  ${y}`;
+
+</script>
+</body>
+</html>
